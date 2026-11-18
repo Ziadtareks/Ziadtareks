@@ -13,10 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ziadtareks/paysync-gateway"><img src="cards/tile-paysync-gateway.svg" width="32.5%" alt="ANDROID: paysync-gateway"></a>
-  <a href="https://github.com/Ziadtareks/WinVelo"><img src="cards/tile-WinVelo.svg" width="32.5%" alt="WINDOWS: WinVelo"></a>
-  <a href="https://github.com/Ziadtareks/GuildForge"><img src="cards/tile-GuildForge.svg" width="32.5%" alt="DISCORD: GuildForge"></a>
-</p>
+<a href="https://github.com/Ziadtareks/paysync-gateway"><img src="cards/tile-paysync-gateway.svg" width="32.5%" alt="ANDROID: paysync-gateway"></a><a href="https://github.com/Ziadtareks/WinVelo"><img src="cards/tile-WinVelo.svg" width="32.5%" alt="WINDOWS: WinVelo"></a><a href="https://github.com/Ziadtareks/GuildForge"><img src="cards/tile-GuildForge.svg" width="32.5%" alt="DISCORD: GuildForge"></a></p>
 
 <p align="center">
   <a href="https://github.com/Ziadtareks/paysync-gateway"><img src="cards/repo-paysync-gateway.svg" width="100%" alt="paysync-gateway: 📲 24/7 SMS payment-verification gateway for Egyptian mobile wallets (Vodafone Cash, InstaPay). Polls your backend, matches wallet SMS, dispatches HMAC-signed results. Kotlin + Jetpack Compose."></a>

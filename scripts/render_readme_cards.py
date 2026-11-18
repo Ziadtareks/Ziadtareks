@@ -200,7 +200,8 @@ def main():
         readme += f'<p align="center">\n  <img src="cards/{file}.svg" width="100%" alt="{alt}">\n</p>\n\n'
     readme += '<p align="center">\n'
     for name, category, *_ in FEATURED[:3]:
-        readme += f'  <a href="{repos[name]["url"]}"><img src="cards/tile-{name}.svg" width="32.5%" alt="{category}: {name}"></a>\n'
+        # Adjacent links avoid text-space widths wrapping tile 3 on narrow GitHub pages.
+        readme += f'<a href="{repos[name]["url"]}"><img src="cards/tile-{name}.svg" width="32.5%" alt="{category}: {name}"></a>'
     readme += '</p>\n\n'
     for name, *_ in FEATURED:
         readme += f'<p align="center">\n  <a href="{repos[name]["url"]}"><img src="cards/repo-{name}.svg" width="100%" alt="{name}: {escape(repos[name]["description"], quote=True)}"></a>\n</p>\n\n'
